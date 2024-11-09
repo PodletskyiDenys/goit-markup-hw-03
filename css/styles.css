@@ -3,15 +3,15 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
+.container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -109,6 +109,16 @@ header {
 .second-section {
   padding: 120px 0;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
 .second-list {
   display: flex;
   gap: 24px;
@@ -178,7 +188,8 @@ header {
   color: #434455;
 }
 .our-portfolio-section {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .container {
@@ -229,6 +240,7 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
