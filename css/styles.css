@@ -3,6 +3,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+img {
+  display: block;
+}
 .container {
   display: flex;
   width: 1158px;
@@ -79,13 +82,17 @@ header {
   padding: 188px 0;
   background-color: #2e2f42;
 }
-.main-h {
-  max-width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .main-button {
   display: block;
@@ -124,7 +131,7 @@ header {
   gap: 24px;
 }
 .second-li-list {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .list-heading {
   margin-bottom: 8px;
