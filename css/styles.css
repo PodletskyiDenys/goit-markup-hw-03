@@ -262,7 +262,7 @@ p {
   row-gap: 48px;
   padding: 0;
 }
-.menu-portfolio.list {
+.menu-portfolio .list {
   width: calc((100% - 48px) / 3);
 }
 
