@@ -7,7 +7,6 @@ img {
   display: block;
 }
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -231,11 +230,11 @@ header {
 }
 
 .section-title {
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #2e2f42;
   margin-bottom: 72px;
 }
 
@@ -244,6 +243,7 @@ header {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  list-style-type: none;
 }
 
 .portfolio-item {
