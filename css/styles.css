@@ -7,6 +7,7 @@ img {
   display: block;
 }
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -62,6 +63,8 @@ header {
   display: flex;
   gap: 40px;
   font-style: normal;
+  list-style-type: none;
+  margin-left: 290px;
 }
 
 .contact-item {
@@ -82,7 +85,15 @@ header {
   background-color: #2e2f42;
 }
 .main-h {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
   max-width: 496px;
+  width: 1158px;
 }
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
